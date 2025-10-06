@@ -1,4 +1,7 @@
 def calculate_average(numbers: list) -> float:
+    if not numbers:
+        return 0.0
+
     # 合計値を初期化
     total = 0.0
 
